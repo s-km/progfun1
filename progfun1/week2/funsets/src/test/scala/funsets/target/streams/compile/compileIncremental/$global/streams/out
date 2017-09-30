@@ -1,0 +1,65 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 737c0c1b, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes;C:\Users\srdjan\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:6: object junit is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.junit.runner.RunWith[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:7: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:16: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass FunSetSuite extends FunSuite {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:15: not found: type RunWith[0m
+[0m[[31merror[0m] [0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:51: not found: value FunSets[0m
+[0m[[31merror[0m] [0m  import FunSets._[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:53: not found: value test[0m
+[0m[[31merror[0m] [0m  test("contains is implemented") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:77: not found: value singletonSet[0m
+[0m[[31merror[0m] [0m    val s1 = singletonSet(1)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:78: not found: value singletonSet[0m
+[0m[[31merror[0m] [0m    val s2 = singletonSet(2)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:79: not found: value singletonSet[0m
+[0m[[31merror[0m] [0m    val s3 = singletonSet(3)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:89: not found: value test[0m
+[0m[[31merror[0m] [0m  test("singletonSet(1) contains 1") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\srdjan\Desktop\Coursera\progfun1\funsets\src\test\scala\funsets\FunSetSuite.scala:104: not found: value test[0m
+[0m[[31merror[0m] [0m  test("union contains all elements of each set") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m12 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
