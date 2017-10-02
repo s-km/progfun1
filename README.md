@@ -6,7 +6,7 @@ Status
 x = in progress
 ? = todo
 ```
-    
+
 ### Computer Science
 [✓] Functional Programming Principles in Scala [progfun1](https://www.coursera.org/learn/progfun1/home/info)
 
